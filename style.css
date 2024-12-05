@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#1e2125
+}
+hr.featurette-divider {
+    color: antiquewhite;
+}
+/*header*/
+/*.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 50px;
+    height: 50%;
+    font-weight: 900;
+	padding: 10px 0 0 0;
+}
+span {
+    color: antiquewhite;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+.nav ul li {
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: x-large;
+    color: antiquewhite;
+}
+/*banner*/
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidecon img {
+    max-width: 25%;
+    height: 20%;
+    border-radius: 0 50% 50%;
+}
+.sidemain {
+    position: relative;
+}
+.sidecon img {
+    max-width: 25%;
+    height: 20%;
+}
+.sidedil {
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.sidedil h1 {
+    font-size: 3vw;
+    width: 86%;
+    color: #E9DFCD;
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+.sidedil h2 {
+    width: 86%;
+    padding-right: 20px;
+}
+.banner h2 {
+    font-size: 3vw;
+    color: #E9DFCD;
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+.banner h3 {
+    font-size: 3vw;
+    color: #E9DFCD;
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style: normal;
+
+}
+/*.banner img {
+    width: 50%
+}
+.bannercon {
+    top: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(50px, 50px);
+    border-style: inset;
+    border-radius: 10px;
+    color: antiquewhite;
+
+}*/
+.social {
+    display: flex;
+}
+/*project*/
+.heading {
+    text-align: center;
+    padding: 30px;
+}
+.heading h1 {
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-size: 3vw;
+	font-weight:800;
+}
+.Project {
+    display: flex;
+    flex-wrap: wrap;
+	margin-bottom: 100;
+}
+.col4 {
+    display: flex;
+   
+    align-items: center;
+    padding: 15px;
+}
+.Pro_contend {
+    display: inline-block;
+    padding: 50px;
+    transition: 0.3s;
+    text-align: center;
+    border-bottom: 3px transparent solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px rgba(73, 66, 66, 0.837);
+	width: 100%;
+}
+.Pro_contend img {
+    max-width: 100%;
+}
+.Pro_contend:hover {
+    border-bottom-color: antiquewhite;
+    transform: translateY(-5px);
+}
+.Pro_contend h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 22px 0px 10px;
+}
+.Pro_contend h3 a {
+    color: antiquewhite;
+}
+.Pro_contend a {
+    color: antiquewhite;
+}
+.Pro_contend P{
+    color: antiquewhite;
+}
+/*contact*/
+.con_pic img {
+    max-width: 100%;
+}
+ul.Menu_contact img {
+    max-width: 8%;
+    padding-bottom: 15px;
+}
+.con_social span {
+    font-size: 35px;
+   
+}
+span.Menu_detail {
+    font-size: medium;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.con_social {
+    padding-left: 100px;
+}
+
+.Contact {
+    background-color: #1111113d;
+}
+
+
+/*<div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Simple header</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+    </header>
+  </div>*/
+
+
+  /*<div class="banner">
+  <img src="picture/braman2.png" alt="picture">
+  <div class="bannercon">
+      <h1>
+          Hi,I'm Kushagra I Design &
+           Build User Iterface
+      </h1>
+      <h2>
+          Transforming Your Vision Into 
+          Innovative Design
+      </h2>
+      <div class="social">
+          <a href="#"><img src="picture/instasvg.svg"></a>
+          <a href="#"><img src="picture/linkedin-svgrepo-com.svg"> </a>
+          <a href="#"><img src="picture/yuotubesvg.svg"></a>
+      </div>
+  </div>
+</div>*/
+.timeline {
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+  
+  .timeline ol {
+    font-size: 0;
+    width: 100vw;
+    padding: 100px 0;
+    transition: all 1s;
+  }
+  
+  .timeline ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 160px;
+    height: 3px;
+    background: #fff;
+  }
+  
+  .timeline ol li:last-child {
+    width: 280px;
+  }
+  
+  .timeline ol li:not(:first-child) {
+    margin-left: 14px;
+  }
+  
+  .timeline ol li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1px);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #f45b69;
+  }
+  
+  .timeline ol li div {
+    position: absolute;
+    left: calc(100% + 7px);
+    width: 280px;
+    padding: 15px;
+    font-size: 1rem;
+    white-space: normal;
+    color: black;
+    background: white;
+  }
+  
+  .timeline ol li div::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .timeline ol li:nth-child(odd) div {
+    top: -16px;
+    transform: translateY(-100%);
+  }
+  
+  .timeline ol li:nth-child(odd) div::before {
+    top: 100%;
+    border-width: 8px 8px 0 0;
+    border-color: white transparent transparent transparent;
+  }
+  
+  .timeline ol li:nth-child(even) div {
+    top: calc(100% + 16px);
+  }
+  
+  .timeline ol li:nth-child(even) div::before {
+    top: -8px;
+    border-width: 8px 0 0 8px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  .timeline time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  /*footer*/
+ul.Menu_contact {
+    padding: 0;
+    margin-top: 20px;
+	list-style:none;
+}
